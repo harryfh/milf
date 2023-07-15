@@ -1,0 +1,46 @@
+@media (min-width: 84em) {
+  html {
+    font-size: 62.5%;
+  }
+}
+@media (max-width: 84em) {
+  html {
+    font-size: 50%;
+  }
+
+  .about {
+    padding: 10rem 20rem;
+  }
+}
+@media (max-width: 75em) {
+  html {
+    font-size: 45%;
+  }
+  .about {
+    padding: 10rem 10rem;
+  }
+}
+@media (max-width: 62.5em) {
+  .top-box,
+  .bottom-box {
+    flex-direction: column;
+  }
+  .link,
+  .next-text-box {
+    text-align: center !important;
+  }
+  .links {
+    position: relative !important;
+    transform: translate(0) !important;
+  }
+}
+@media (max-width: 50em) {
+  html {
+    font-size: 40%;
+  }
+}
+@media (max-width: 40em) {
+  html {
+    font-size: 40%;
+  }
+}

@@ -1,0 +1,23 @@
+:root {
+  /* --text: #070416;
+	--background: #e2ddf9;
+	--primary: #b6a9ef;
+	--secondary: #ede9fb;
+	--accent: #a393eb; */
+
+  --text: #eee;
+  --text-shade: #ddd;
+  --dark-background: #71539d;
+  --background: #222;
+  --primary: #b6a9ef;
+  --secondary: #938bb0;
+  --accent: #71539d;
+  --shadow: rgba(0, 0, 0, 0.05);
+
+  /* --text: hsl(315, 88%, 56%);
+  --background: #e0bbd5;
+  --primary: #ff6cf8;
+  --secondary: #f29ad8;
+  --accent: #00bbef;
+  --shadow: rgba(0, 0, 0, 0.05); */
+}
