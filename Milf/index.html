@@ -17,6 +17,11 @@
 		<link rel="stylesheet" href="css/media.css" />
 		<link rel="stylesheet" href="css/style.css" />
 		<title>MILF Fest</title>
+		<script defer src="js/script.js"></script>
+		<script
+			defer
+			src="https://unpkg.com/browse/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+		></script>
 	</head>
 	<body>
 		<section class="hero">
@@ -76,33 +81,39 @@
 				<div class="logo-box">
 					<img class="milf-logo" src="imgs/logos/milf-logo.png" />
 				</div>
-				<div class="bottom-box">
-					<p class="milf-text">a film festival for everyone</p>
-					<nav>
-						<ul class="links">
-							<li class="link"><a href="#" target="_blank">about</a></li>
 
-							<li class="link"><a href="#" target="_blank">gallery</a></li>
+				<nav class="main-nav">
+					<ul class="links">
+						<li class="link"><a href="#about">about</a></li>
 
-							<li class="link"><a href="#" target="_blank">contact</a></li>
-							<li class="link">
-								<a href="https://filmfreeway.com/milffest" target="_blank"
-									>register now</a
-								>
-							</li>
-						</ul>
-					</nav>
-					<button class="btn-mobile-nav">
-						<ion-icon class="icon-mobile-nav" name="menu"></ion-icon>
-						<ion-icon
-							class="icon-mobile-nav"
-							name="close-circle-outline"
-						></ion-icon>
-					</button>
-				</div>
+						<li class="link"><a href="#gallery">gallery</a></li>
+
+						<li class="link"><a href="#cta">contact</a></li>
+						<li class="link">
+							<a href="https://filmfreeway.com/milffest" target="_blank"
+								>register now</a
+							>
+						</li>
+					</ul>
+				</nav>
 			</div>
 		</section>
-		<section class="about">
+		<div class="go-to-top" id="goBack">
+			<a href="#">
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					width="32"
+					height="32"
+					fill="currentColor"
+					viewBox="0 0 256 256"
+				>
+					<path
+						d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm37.66-101.66a8,8,0,0,1-11.32,11.32L136,107.31V168a8,8,0,0,1-16,0V107.31l-18.34,18.35a8,8,0,0,1-11.32-11.32l32-32a8,8,0,0,1,11.32,0Z"
+					></path>
+				</svg>
+			</a>
+		</div>
+		<section class="about" id="about">
 			<div class="container">
 				<div class="sponsor-box">
 					<h3>Brought To You Buy Local Montreal Brands</h3>
@@ -173,7 +184,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="gallery">
+		<section class="gallery" id="gallery">
 			<div class="contianer">
 				<h2 class="secondary-header">MILF Fest 2023</h2>
 				<div class="carsouel grid grid-3-col">
@@ -258,18 +269,24 @@
 					></path>
 				</svg>
 			</div>
-			<div class="container">
+
+			<div class="container" id="cta">
 				<div class="header-img"><img src="barbie/barbie.png" /></div>
 				<h3 class="cta-header">Our next MILF will be bigger than ever</h3>
-				<div class="cta-card grid grid-2-col">
-					<div class="cta-text">
-						<p>Register to keep up to date with upcoming dates and deadlines</p>
-						<p class="subheading">We promise not to spam your inbox</p>
-
-						<btn class="cta-btn btn btn--barbie">Stay Updated</btn>
+				<div class="cta-card">
+					<div class="cta-grid">
+						<div class="cta-text">
+							<p>
+								Register to keep up to date with upcoming dates and deadlines
+							</p>
+							<p class="subheading">We promise not to spam your inbox</p>
+						</div>
+						<div class="cta-image">
+							<img src="barbie/phone.png" />
+						</div>
 					</div>
-					<div class="cta-image">
-						<img src="barbie/phone.png" />
+					<div class="cta-btn">
+						<btn class="btn btn--barbie" href="">Stay Updated</btn>
 					</div>
 				</div>
 			</div>
