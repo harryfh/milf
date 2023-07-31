@@ -2,11 +2,18 @@ const allLinks = document.querySelectorAll("a:link")
 const mybutton = document.getElementById("goBack")
 allLinks.forEach(function (link) {
     link.addEventListener("click", function (e) {
-        e.preventDefault();
+       
+      
         const href = link.getAttribute("href")
+        if (href === "#" || href.startsWith("#") ) {
+            e.preventDefault();
+        }
+      
+        
         console.log(href)
          // Scroll To Top
         if (href === "#") 
+        
             window.scrollTo({
                 top: 0,
                 behavior: "smooth",
