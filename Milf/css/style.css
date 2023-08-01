@@ -332,23 +332,35 @@
 	overflow: hidden;
 }
 .gallery h2 {
-	margin-bottom: 6.4rem;
+	margin-bottom: 4rem;
 
 	text-align: center;
 }
 .carsouel {
 	overflow: hidden;
 	gap: 5rem;
+	margin-inline: 10rem;
 	margin-bottom: 12rem;
-	padding: 5rem;
+	padding: 10rem;
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	grid-template-columns: 1fr 1fr 1fr;
+
+	margin: 0 auto;
+}
+.carasouel-img-box {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .carsouel-img,
 .carsouel-img:link {
 	scale: 1;
 	box-shadow: 0 0 30px var(--shadow);
 	border-radius: 5px;
-	width: 100%;
-
+	width: 50rem;
 	transition: all 1s ease;
 }
 .carsouel-img:hover,
@@ -359,18 +371,30 @@
 
 .winners {
 	gap: 2rem;
+	padding: 5rem;
 	padding-bottom: 2rem;
 	position: relative;
+	display: grid;
+	justify-content: center;
+	width: 100%;
+	align-content: center;
 	grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 .poster {
 	box-shadow: 0 0 30px var(--shadow);
 	border-radius: 8px;
-	height: 75%;
+	width: 75%;
 	scale: 1;
 	transition: all 300ms ease;
 	cursor: pointer;
 	opacity: 0.5;
+}
+.poster-box {
+	display: flex;
+	max-height: 50rem;
+	align-items: center;
+	margin-bottom: 2rem;
+	justify-content: center;
 }
 
 .winners .text {
@@ -379,9 +403,10 @@
 	left: 50%;
 	opacity: 0;
 	text-align: center;
-	transform: translate(-50%, 50%);
+
+	transform: translate(-50%, 100%);
 	transition: all 500ms ease;
-	font-size: 3.2rem;
+	font-size: 2.8rem;
 	width: 100%;
 }
 .winners .winner {
@@ -389,12 +414,8 @@
 	color: var(--primary);
 }
 
-.winners .text {
-	position: absolute;
-}
-
-.poster:hover + .text,
-.poster:focus + .text {
+.poster-box:hover + .text,
+.poster-box:focus + .text {
 	opacity: 1;
 	transition: all 500ms ease;
 }
@@ -411,24 +432,30 @@
 	color: var(--primary);
 	text-align: center;
 	text-transform: uppercase;
-	margin-bottom: 6.4rem;
+	margin-bottom: 1rem;
+}
+.wave-container {
+	height: 10rem;
+}
+.barbie {
+	position: relative;
+	width: 100%;
+	margin-top: 5rem;
+	display: flex;
+	align-items: bottom;
 }
 .barbie-waves {
-	position: absolute;
-	top: 0;
 	width: 100%;
+	transform: translateY(2%);
 	fill: var(--text);
-	transform: translate(0, -75%);
-
-	z-index: -1;
 }
 .cta {
-	margin-top: 30rem;
 	padding-bottom: 0rem;
 	background-color: var(--text);
 	position: relative;
 	z-index: local;
 }
+
 .cta-card {
 	width: 100%;
 
