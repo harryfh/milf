@@ -9,7 +9,7 @@
 	}
 
 	.about {
-		padding: 10rem 20rem;
+		padding: 10em 20em;
 	}
 }
 @media (max-width: 75em) {
@@ -17,7 +17,7 @@
 		font-size: 45%;
 	}
 	.about {
-		padding: 10rem 10rem;
+		padding: 10em 10em;
 	}
 }
 @media (max-width: 62.5em) {
@@ -40,7 +40,7 @@
 		grid-template-columns: 1fr !important;
 	}
 	.img-box {
-		min-height: 60rem !important;
+		min-height: 60em !important;
 	}
 }
 @media (max-width: 50em) {
