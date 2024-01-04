@@ -340,11 +340,22 @@
 	position: relative;
 	background: transparent;
 	overflow: hidden;
+	margin: 0 auto;
 }
 .gallery h2 {
 	margin-bottom: 4rem;
 
 	text-align: center;
+}
+.header2023 {
+	color: var(--primary2023) !important;
+}
+.logo2023 {
+	width: 15rem;
+
+	position: absolute;
+	top: 0;
+	transform: translateY(100%);
 }
 .carsouel {
 	overflow: hidden;
@@ -490,7 +501,7 @@
 }
 .cta-header {
 	text-align: left;
-	color: #eee;
+	color: var(--dark-background);
 	margin-bottom: 3rem;
 	font-size: 4.8rem;
 }
