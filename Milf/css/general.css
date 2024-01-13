@@ -16,9 +16,9 @@ body {
 
   font-family: "Lexend Peta", sans-serif;
   font-weight: 400;
-  background-color: var(--background);
+
   color: var(--text);
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 
 img {
@@ -45,7 +45,7 @@ img {
 /* CONTAINERS */
 .container {
   margin: 0 auto;
-  max-width: 160rem;
+  max-width: 120rem;
   padding: 10rem;
 }
 
