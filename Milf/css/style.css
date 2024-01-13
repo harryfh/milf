@@ -24,9 +24,7 @@
 }
 
 .hero {
-  /* width: 100%;
-  height: 100%; */
-
+  width: 100%;
   padding: 0rem 30rem;
   margin: 0 auto;
   background-color: var(--background);
