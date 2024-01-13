@@ -17,6 +17,7 @@ body {
   line-height: 1;
   color: var(--text);
   /* background-attachment: fixed; */
+  overflow-x: hidden;
 }
 
 img {
