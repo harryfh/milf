@@ -155,6 +155,10 @@
     margin-top: 20rem !important;
   }
 }
-.no-flexbox-gap .about-card:not(:last-child) {
+.no-flexbox-gap .img-box:not(:last-child) {
+  margin-bottom: 5rem;
+}
+
+.no-flexbox-gap .about-text:not(:last-child) {
   margin-bottom: 5rem;
 }
