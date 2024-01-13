@@ -91,8 +91,6 @@
     padding: 0rem !important;
   }
   .cta-image img {
-    width: 50% !important;
-
     margin-left: 0rem !important;
   }
   .cta-text .subheading {
@@ -112,14 +110,8 @@
   html {
     font-size: 25%;
   }
-  .btn {
-    font-size: 1rem;
-  }
 }
 @media (max-width: 20em) {
-  .btn {
-    width: 1rem;
-  }
   html {
     font-size: 16%;
   }

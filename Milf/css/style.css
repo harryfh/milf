@@ -261,6 +261,7 @@
   text-align: center;
   justify-content: center;
   position: relative;
+
   background-color: var(--dark-background);
   color: var(--text);
 }
@@ -475,7 +476,7 @@
   background-color: #222;
 }
 .cta {
-  padding-inline: 30rem;
+  padding-inline: 10rem;
   padding-bottom: 15rem;
   background-color: var(--text);
   position: relative;
