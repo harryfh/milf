@@ -115,7 +115,7 @@
 }
 @media (max-width: 30em) {
   html {
-    font-size: 25%;
+    font-size: 245%;
   }
 }
 @media (max-width: 20em) {
@@ -128,13 +128,13 @@
     font-size: 9%;
   }
   .body-text {
-    font-size: 3rem !important;
+    font-size: 3em !important;
   }
   .about-card {
-    gap: 2rem;
+    gap: 2em;
   }
   .about-text:last-of-type() {
-    margin-top: 20rem !important;
+    margin-top: 20em !important;
   }
 }
 @media (max-width: 10em) {
@@ -142,12 +142,12 @@
     font-size: 4%;
   }
   .body-text {
-    font-size: 3rem !important;
+    font-size: 3em !important;
   }
   .about-card {
     gap: 2rem;
   }
   .about-text:last-of-type() {
-    margin-top: 20rem !important;
+    margin-top: 20em !important;
   }
 }

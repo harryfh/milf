@@ -341,7 +341,6 @@
   justify-content: center;
   position: relative;
   background: transparent;
-  overflow: hidden;
 }
 .gallery h2 {
   margin-bottom: 4rem;
