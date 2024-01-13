@@ -25,6 +25,13 @@
   html {
     font-size: 40%;
   }
+  .barbie {
+    position: absolute !important;
+    opacity: 0 !important;
+  }
+  .cta {
+    padding-top: 10rem;
+  }
   .top-box,
   .links {
     flex-direction: column;

@@ -465,12 +465,13 @@
 .barbie {
   position: relative;
   width: 100%;
-
+  max-width: 120rem;
   display: flex;
   align-items: bottom;
 }
 .barbie-waves {
   width: 100%;
+  max-width: 120rem;
   transform: translateY(0%);
   fill: var(--text);
   background-color: #222;
