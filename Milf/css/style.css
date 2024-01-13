@@ -334,7 +334,7 @@
 
 .gallery {
   padding: 20rem 30rem;
-
+  overflow: hidden;
   display: flex;
   align-items: center;
   background-color: #222 !important;
