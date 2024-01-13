@@ -1,71 +1,123 @@
 @media (min-width: 84em) {
-	html {
-		font-size: 62.5%;
-	}
+  html {
+    font-size: 62.5%;
+  }
 }
 @media (max-width: 84em) {
-	html {
-		font-size: 50%;
-	}
+  html {
+    font-size: 50%;
+  }
 
-	.about {
-		padding: 10em 20em;
-	}
+  .about {
+    padding: 10em 20em;
+  }
 }
 @media (max-width: 75em) {
-	html {
-		font-size: 45%;
-	}
-	.about {
-		padding: 10em 10em;
-	}
+  html {
+    font-size: 45%;
+  }
+  .about {
+    padding: 10em 10em;
+  }
 }
+
 @media (max-width: 62.5em) {
-	html {
-		font-size: 40%;
-	}
-	.top-box,
-	.links {
-		flex-direction: column;
-	}
-	.link,
-	.next-text-box {
-		text-align: center !important;
-	}
-	.links {
-		position: relative !important;
-		transform: translate(0) !important;
-	}
-	.about-card {
-		grid-template-columns: 1fr !important;
-	}
-	.img-box {
-		min-height: 60em !important;
-	}
+  html {
+    font-size: 40%;
+  }
+  .top-box,
+  .links {
+    flex-direction: column;
+  }
+  .link,
+  .next-text-box {
+    text-align: center !important;
+  }
+  .links {
+    position: relative !important;
+    transform: translate(0) !important;
+  }
+  .about-card {
+    grid-template-columns: 1fr !important;
+  }
+  .img-box {
+    min-height: 60em !important;
+  }
 }
 @media (max-width: 50em) {
-	html {
-		font-size: 35%;
-	}
-	.grid-3-col {
-		grid-template-columns: 1fr 1fr !important;
-	}
+  html {
+    font-size: 37.5%;
+  }
 
-	.cta-grid {
-		text-align: center !important;
-		grid-template-columns: 1fr !important;
-	}
-	.cta-image img {
-		width: 50% !important;
-	}
+  .carsouel {
+    gap: 0em;
+
+    grid-template-columns: 1fr !important;
+  }
+
+  .winners {
+    grid-template-columns: 1fr 1fr !important;
+    align-items: center;
+  }
+  .poster-box {
+    width: 30rem;
+  }
+
+  .winners .text {
+    position: relative !important;
+    bottom: 0;
+    left: 0 !important;
+    opacity: 1 !important;
+    text-align: center;
+
+    transform: translate(0%, 0%) !important;
+    transition: all 500ms ease;
+    font-size: 2.8rem;
+    width: 100%;
+  }
+  .award,
+  .winner {
+    font-size: 2rem !important;
+    padding: 4rem !important;
+  }
+  .cta-card {
+    padding: 10rem !important;
+  }
+  .cta-grid {
+    text-align: center !important;
+    grid-template-columns: 1fr !important;
+  }
+  .cta-text {
+    padding: 0rem !important;
+  }
+  .cta-image img {
+    width: 50% !important;
+
+    margin-left: 0rem !important;
+  }
+  .cta-text .subheading {
+    margin-top: 2rem;
+    margin-bottom: 0rem !important;
+  }
+  .cta-image {
+    padding: 10rem !important;
+  }
 }
 @media (max-width: 40em) {
-	html {
-		font-size: 30%;
-	}
+  html {
+    font-size: 30%;
+  }
 }
 @media (max-width: 30em) {
-	html {
-		font-size: 25%;
-	}
+  html {
+    font-size: 25%;
+  }
+}
+@media (max-width: 20em) {
+  .btn {
+    width: 1rem;
+  }
+  html {
+    font-size: 16%;
+  }
 }
