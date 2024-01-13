@@ -87,6 +87,10 @@
     font-size: 2rem !important;
     padding: 4rem !important;
   }
+  .carsouel-img-box,
+  .poster-box {
+    width: 75% !important;
+  }
   .cta-card {
     padding: 10rem !important;
   }
