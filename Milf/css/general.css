@@ -12,8 +12,6 @@ html {
 }
 html,
 body {
-  height: 100%;
-
   font-family: "Lexend Peta", sans-serif;
   font-weight: 400;
 
@@ -44,9 +42,9 @@ img {
 
 /* CONTAINERS */
 .container {
-  margin: 0 auto;
   max-width: 120rem;
-  padding: 10rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
 }
 
 /* Buttons */

@@ -112,6 +112,9 @@
   html {
     font-size: 25%;
   }
+  .btn {
+    font-size: 1rem;
+  }
 }
 @media (max-width: 20em) {
   .btn {
@@ -121,9 +124,23 @@
     font-size: 16%;
   }
 }
-@media (max-width: 200px) {
+@media (max-width: 15em) {
   html {
     font-size: 9%;
+  }
+  .body-text {
+    font-size: 3rem !important;
+  }
+  .about-card {
+    gap: 2rem;
+  }
+  .about-text:last-of-type() {
+    margin-top: 20rem !important;
+  }
+}
+@media (max-width: 10em) {
+  html {
+    font-size: 4%;
   }
   .body-text {
     font-size: 3rem !important;
