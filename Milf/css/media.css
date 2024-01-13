@@ -155,3 +155,6 @@
     margin-top: 20rem !important;
   }
 }
+.no-flexbox-gap .about-card:not(:last-child) {
+  margin-bottom: 5rem;
+}
