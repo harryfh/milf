@@ -24,8 +24,6 @@
 }
 
 .hero {
-  width: 100%;
-  padding: 0rem 30rem;
   margin: 0 auto;
   background-color: var(--background);
   display: flex;
@@ -39,7 +37,7 @@
   justify-content: center;
   align-items: center;
   padding: 10rem 0rem;
-  width: 160rem;
+  width: 120rem;
   height: 75%;
   position: relative;
 }
@@ -148,11 +146,11 @@
   height: 75px;
 }
 .milf-logo {
-  width: 80rem;
+  width: 50rem;
   background: transparent;
 }
 .logo-box {
-  margin: 0rem;
+  margin: 3rem;
   /*
 	padding: 10rem;
 	background-image: radial-gradient(
