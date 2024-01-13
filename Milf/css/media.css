@@ -113,7 +113,7 @@
     font-size: 25%;
   }
 }
-@media (max-width: 20em) {
+@media screen and (max-width: 20em) and (min-device-width: 362px) {
   .btn {
     width: 1rem;
   }

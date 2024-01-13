@@ -168,7 +168,7 @@
 }
 
 /* BACKGROUND */
-
+/* 
 @keyframes move-background {
   from {
     -webkit-transform: translate3d(0px, 0px, 0px);
@@ -249,7 +249,7 @@
   -o-animation: move-background 70s linear infinite;
   -webkit-animation: move-background 70s linear infinite;
   animation: move-background 70s linear infinite;
-}
+} */
 
 /* ! ABOUT */
 
