@@ -24,6 +24,7 @@
 }
 
 .hero {
+  height: 100vh;
   margin: 0 auto;
   background-color: var(--background);
   display: flex;
@@ -329,7 +330,7 @@
 /* !GALLERY */
 
 .gallery {
-  padding: 20rem 30rem;
+  padding-block: 20rem;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -355,7 +356,7 @@
 }
 .carsouel {
   gap: 2rem;
-
+  max-width: 80rem;
   margin-bottom: 12rem;
   width: 100%;
   padding-bottom: 10rem;
@@ -369,7 +370,7 @@
 .carasouel-img-box {
   overflow: hidden;
   display: flex;
-
+  width: 100%;
   align-items: center;
   justify-items: center;
 }
@@ -460,13 +461,13 @@
 .barbie {
   position: relative;
   width: 100%;
-  max-width: 120rem;
+
   display: flex;
   align-items: bottom;
 }
 .barbie-waves {
   width: 100%;
-  max-width: 120rem;
+
   transform: translateY(0%);
   fill: var(--text);
   background-color: #222;

@@ -133,8 +133,8 @@
   .about-card {
     gap: 2rem;
   }
-  .about-text:last-of-type() {
-    margin-top: 20rem !important;
+  .about-text--last {
+    transform: translateY(-50%) !important;
   }
 }
 @media (max-width: 10em) {
