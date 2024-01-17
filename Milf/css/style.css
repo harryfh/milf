@@ -268,7 +268,7 @@
   grid-template-columns: 1fr 1fr;
 
   color: var(--text-shade);
-  padding-bottom: 10rem;
+  padding-bottom: 18rem;
   justify-content: center;
   align-items: center;
   gap: 6.4rem;
@@ -301,10 +301,7 @@
   text-align: left;
 }
 .img-text {
-  position: absolute;
   font-size: 2rem;
-  bottom: 0;
-  transform: translateY(100%);
 }
 .img-text span {
   color: var(--text);
