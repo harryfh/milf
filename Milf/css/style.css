@@ -39,7 +39,7 @@
   align-items: center;
   padding: 10rem 0rem;
   width: 120rem;
-  height: 75%;
+  max-height: 80vh;
   position: relative;
 }
 .milf-box span {
@@ -268,7 +268,7 @@
   grid-template-columns: 1fr 1fr;
 
   color: var(--text-shade);
-  padding-bottom: 18rem;
+  padding-bottom: 10rem;
   justify-content: center;
   align-items: center;
   gap: 6.4rem;

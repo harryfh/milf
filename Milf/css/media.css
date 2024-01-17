@@ -25,6 +25,16 @@
   html {
     font-size: 40%;
   }
+
+  .about-text,
+  .img-text {
+    max-width: 50% !important;
+    margin: 0 auto;
+    line-height: 1.5;
+  }
+  .img-text {
+    margin-bottom: 3rem;
+  }
   .barbie {
     position: absolute !important;
     opacity: 0 !important;
@@ -47,6 +57,10 @@
   .about-card {
     grid-template-columns: 1fr !important;
   }
+  .img-box {
+    order: 1;
+  }
+
   .img-box {
     min-height: 60em !important;
   }
@@ -136,9 +150,6 @@
   }
   .about-card {
     gap: 2rem;
-  }
-  .about-text--last {
-    transform: translateY(-50%) !important;
   }
 }
 @media (max-width: 10em) {
