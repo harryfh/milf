@@ -28,7 +28,7 @@
 
   .about-text,
   .img-text {
-    max-width: 50% !important;
+    max-width: 80% !important;
     margin: 0 auto;
     line-height: 1.5;
   }

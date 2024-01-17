@@ -100,7 +100,7 @@
   padding: 2rem;
 }
 .link a:hover {
-  transition: all 300ms ease-in;
+  transition: all 150ms ease-in;
   cursor: pointer;
   color: var(--primary);
 }
