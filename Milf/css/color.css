@@ -1,5 +1,5 @@
 :root {
-	/* --text: #070416;
+  /* --text: #070416;
 	--background: #e2ddf9;
 	--primary: #b6a9ef;
 	--secondary: #ede9fb;
@@ -13,14 +13,14 @@
 	--accent: #71539d;
 	--shadow: rgba(0, 0, 0, 0.05);
   */
-	--text: #94406e;
-	--background: #e4d2de;
-	--text-shade: #333;
-	--primary: #ff6cf8;
-	--dark-background: #eee2ff;
-	--secondary: #f29ad8;
-	--accent: #00bbef;
-	--primary2023: #b6a9ef;
-	--secondary2023: #938bb0;
-	--shadow: rgba(0, 0, 0, 0.05);
+  --text: #94406e;
+  --background: #e4d2de;
+  --text-shade: #333;
+  --primary: #ff6cf8;
+  --dark-background: #eee2ff;
+  --secondary: #f29ad8;
+  --accent: #00bbef;
+  --primary2023: #b6a9ef;
+  --secondary2023: #938bb0;
+  --shadow: rgba(0, 0, 0, 0.05);
 }

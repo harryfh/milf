@@ -46,7 +46,7 @@
   .links {
     flex-direction: column;
   }
-  .link,
+  f .link,
   .next-text-box {
     text-align: center !important;
   }
@@ -69,7 +69,12 @@
   html {
     font-size: 37.5%;
   }
-
+  .float-left {
+    transform: translate(-40%, -20%) !important;
+  }
+  .float-left-right {
+    transform: translate(40%, -25%) !important;
+  }
   .carsouel {
     gap: 0em;
 
@@ -160,16 +165,16 @@
     font-size: 3rem !important;
   }
   .about-card {
-    gap: 2rem;
+    gap: 0rem;
   }
   .about-text:last-of-type() {
     margin-top: 20rem !important;
   }
 }
-.no-flexbox-gap .img-box:not(:last-child) {
-  margin-bottom: 5rem;
+.no-flexbox-gap .img-box {
+  margin-bottom: 3rem;
 }
 
-.no-flexbox-gap .about-text:not(:last-child) {
-  margin-bottom: 5rem;
+.no-flexbox-gap .about-text {
+  margin-bottom: 3rem;
 }

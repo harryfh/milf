@@ -86,7 +86,19 @@
   width: 100%;
   justify-content: space-between;
 }
+.map-card {
+  padding-bottom: 7rem;
+  padding-top: 0rem;
+}
+.map-header {
+  font-size: 4rem;
 
+  padding-bottom: 1.6rem;
+}
+.map-subheader {
+  font-size: 2rem;
+  padding-bottom: 2.4rem;
+}
 .link a {
   scale: 1;
 

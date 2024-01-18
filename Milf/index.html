@@ -14,12 +14,27 @@
       href="https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@400;500;600;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="css/jquery-jvectormap-2.0.1.css"
+      type="text/css"
+      media="screen"
+    />
+    <script src="js/milf-data.js"></script>
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/color.css" />
     <link rel="stylesheet" href="css/media.css" />
     <link rel="stylesheet" href="css/style.css" />
     <title>MILF Fest</title>
-    <script defer src="js/script.js"></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      type="text/javascript"
+    ></script>
+
+    <script src="js/jquery-jvectormap-2.0.5.min.js"></script>
+    <script src="js/jquery-jvectormap-world-mill.js"></script>
+    <!-- <script defer src="js/script.js"></script> -->
     <script
       defer
       src="https://unpkg.com/browse/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
@@ -123,6 +138,7 @@
         </svg>
       </a>
     </div> -->
+
     <section class="about" id="about">
       <div class="container">
         <div class="sponsor-box">
@@ -185,8 +201,47 @@
             </p>
           </div>
         </div>
+        <div class="map-card">
+          <h2 class="map-header">2024 Submissions Map</h2>
+          <p class="map-subheader">
+            This year we received 1776 from over 100 countries
+          </p>
+
+          <div class="world-map-box">
+            <div
+              id="world-map"
+              style="
+                height: 40rem;
+
+                scroll-behavior: smooth;
+              "
+            ></div>
+            <script>
+              $(function () {
+                $("#world-map").vectorMap({
+                  map: "world_mill",
+                  series: {
+                    regions: [
+                      {
+                        values: milfData,
+                        scale: ["#e2deff", "#ff6cf8"],
+                        normalizeFunction: "polynomial",
+                      },
+                    ],
+                  },
+                  onRegionTipShow: function (e, el, code) {
+                    el.html(
+                      el.html() + " (Films Submitted - " + milfData[code] + ")"
+                    )
+                  },
+                })
+              })
+            </script>
+          </div>
+        </div>
       </div>
     </section>
+
     <section class="gallery" id="gallery">
       <div class="container">
         <h2 class="secondary-header">MILF Fest 2023</h2>
