@@ -261,6 +261,28 @@
 } */
 
 /* ! ABOUT */
+.sponsor-box {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+.sponsor-box h3 {
+  margin: 0 auto;
+  color: rgba(0, 0, 0, 0.5);
+}
+.sponsors {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+  padding: 2rem;
+}
+.sponsors img {
+  width: 7rem;
+  height: 100%;
+  filter: brightness(0);
+  opacity: 50%;
+}
 
 .about {
   padding: 10rem 5rem;
@@ -483,7 +505,7 @@
 }
 .cta {
   padding-inline: 10rem;
-  padding-bottom: 15rem;
+  padding-bottom: 5rem;
   background-color: var(--text);
   position: relative;
   display: flex;
