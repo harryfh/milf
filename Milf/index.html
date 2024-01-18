@@ -210,16 +210,15 @@
           <div class="world-map-box">
             <div
               id="world-map"
-              style="
-                height: 40rem;
-
-                scroll-behavior: smooth;
-              "
+              style="height: 50rem; scroll-behavior: smooth"
             ></div>
             <script>
               $(function () {
                 $("#world-map").vectorMap({
                   map: "world_mill",
+                  regionStyle: {
+                    initial: { fill: "#444" },
+                  },
                   series: {
                     regions: [
                       {
@@ -230,9 +229,19 @@
                     ],
                   },
                   onRegionTipShow: function (e, el, code) {
-                    el.html(
-                      el.html() + " (Films Submitted - " + milfData[code] + ")"
-                    )
+                    // color the country black if undefined
+                    if (typeof milfData[code] !== "undefined") {
+                      el.css("z-index", "1000")
+                      el.html(
+                        el.html() +
+                          " (Films Submitted - " +
+                          milfData[code] +
+                          ")"
+                      )
+                    } else {
+                      el.html(el.html() + " (Films Submitted - 0)")
+                      el.css("z-index", "-1000")
+                    }
                   },
                 })
               })
@@ -243,8 +252,11 @@
     </section>
 
     <section class="gallery" id="gallery">
+      <img src="imgs/logos/milf-logo.webp" class="logo2023" />
       <div class="container">
-        <h2 class="secondary-header">MILF Fest 2023</h2>
+        <h2 class="secondary-header" style="color: var(--primary2023)">
+          MILF Fest 2023
+        </h2>
         <div class="carsouel">
           <div class="carasouel-img-box">
             <img class="carsouel-img" src="imgs/tps/carrot-dogs.jpg" />
@@ -275,7 +287,9 @@
             <img class="carsouel-img" src="imgs/gallery/img-6.JPG" />
           </div>
         </div>
-        <h3 class="gallery-header">2023 Award Winners</h3>
+        <h3 class="gallery-header" style="color: var(--secondary2023)">
+          2023 Award Winners
+        </h3>
 
         <div class="winners">
           <div class="poster-box">
