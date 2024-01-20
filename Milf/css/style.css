@@ -265,6 +265,8 @@
   display: flex;
   flex-direction: column;
   margin-top: 5rem;
+  height: 100%;
+
   width: 100%;
 }
 .sponsor-box h3 {
@@ -275,12 +277,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10rem;
+
   padding: 2rem;
 }
 .sponsors img {
   width: 7rem;
-  height: 100%;
+  margin: 4rem;
   filter: brightness(0);
   opacity: 50%;
 }
