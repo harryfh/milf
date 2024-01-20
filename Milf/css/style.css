@@ -265,6 +265,7 @@
   display: flex;
   flex-direction: column;
   margin-top: 5rem;
+  width: 100%;
 }
 .sponsor-box h3 {
   margin: 0 auto;
