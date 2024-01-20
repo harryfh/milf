@@ -280,11 +280,16 @@
 
   padding: 2rem;
 }
-.sponsors img {
-  width: 7rem;
+.sponsor-div {
+  width: 8rem;
   margin: 4rem;
+}
+.sponsors img {
+  width: 100%;
+  height: 100%;
   filter: brightness(0);
   opacity: 50%;
+  object-fit: contain;
 }
 
 .about {
