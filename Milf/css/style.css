@@ -379,8 +379,10 @@
 }
 .gallery--2024 {
   background-color: #eee;
-  color: var(--primary);
+  color: var(--text);
+  background-color: var(--background);
 }
+
 .gallery--2023 {
   background-color: #222;
 }
@@ -495,10 +497,10 @@
   color: var(--primary);
 }
 .winners--2024 .award {
-  color: var(--text);
+  color: var(--primary);
 }
 .winners--2024 .winner {
-  color: var(--seconary);
+  color: var(--texts);
 }
 
 .poster-box:hover + .text,
@@ -527,38 +529,64 @@
 .barbie {
   position: relative;
   width: 100%;
-
+  background-color: #222;
   display: flex;
   align-items: bottom;
 }
 .barbie-waves {
   width: 100%;
-
   transform: translateY(0%);
   fill: var(--text);
   background-color: #222;
 }
+.brat-waves {
+  width: 100%;
+  transform: translateY(10%);
+  fill: #8ace00;
+  background-color: #222;
+}
 .cta {
   padding-inline: 10rem;
-  padding-bottom: 20rem;
-  background-color: var(--text);
+  padding-block: 20rem;
+
+  background-color: #8ace00;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
 }
+.cta-header-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 2rem;
+  margin-bottom: 3rem;
+  width: 100%;
+}
+.cta-header-box btn {
+  color: #c2eb70;
+  background-color: black;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #c2eb708d;
+  transition: all 150ms ease-out;
+}
+.cta-header-box btn:hover {
+  color: black;
+  background-color: #c2eb70;
+  box-shadow: 0 0 30px #c2eb70;
+  transition: all 150ms ease-in;
+}
 
 .cta-card {
   width: 100%;
-
+  height: 100%;
   border-radius: 20px;
   margin: 0 auto;
   color: #333;
 
-  background-color: var(--dark-background);
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  background-color: #c2eb70;
+
   background-size: cover;
 
   position: relative;
@@ -572,8 +600,8 @@
 }
 .cta-header {
   text-align: left;
-  color: var(--dark-background);
-  margin-bottom: 3rem;
+  color: #111;
+
   font-size: 4.8rem;
 }
 .header-img {
@@ -601,7 +629,8 @@
 .cta-text .subheading {
   margin-top: 2rem;
   margin-bottom: 5rem;
-  color: #555;
+  color: #222;
+  text-align: left;
 }
 .cta-image img {
   width: 75%;
@@ -619,7 +648,13 @@
   align-items: center;
   justify-content: center;
 }
-
+.cta-logo-text {
+  font-size: 10rem;
+  color: black;
+  padding: 3rem;
+  margin: 0 auto;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
 .cta-btn {
   border-radius: 20px;
 
