@@ -373,10 +373,16 @@
   overflow: hidden;
   display: flex;
   align-items: center;
-  background-color: #222 !important;
   justify-content: center;
   position: relative;
   background: transparent;
+}
+.gallery--2024 {
+  background-color: #eee;
+  color: var(--primary);
+}
+.gallery--2023 {
+  background-color: #222;
 }
 .gallery h2 {
   margin-bottom: 4rem;
@@ -393,6 +399,11 @@
   top: 0;
   transform: translateY(100%);
 }
+.logo2024 {
+  width: 20rem;
+  margin: 0 auto;
+  background: transparent;
+}
 .carsouel {
   gap: 2rem;
   max-width: 80rem;
@@ -406,7 +417,8 @@
 
   margin: 0 auto;
 }
-.carasouel-img-box {
+.carasouel-img-box,
+.carousel-img-box {
   overflow: hidden;
   display: flex;
   width: 100%;
@@ -414,7 +426,9 @@
   justify-items: center;
 }
 .carsouel-img,
-.carsouel-img:link {
+.carsouel-img:link,
+.carousel-img,
+.carousel-img:link {
   width: 100%;
   scale: 1;
 
@@ -424,7 +438,9 @@
   transition: all 1s ease;
 }
 .carsouel-img:hover,
-.carsouel-img:active {
+.carsouel-img:active,
+.carousel-img:hover,
+.carousel-img:active {
   scale: 1.2;
   transition: all 300ms ease;
 }
@@ -438,7 +454,12 @@
   justify-content: center;
   width: 100%;
   align-content: center;
+}
+.winners--2023 {
   grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.winners--2024 {
+  grid-template-columns: 1fr 1.5fr 1.5fr 1fr 1fr 1fr 1.3fr 1.3fr;
 }
 .poster {
   box-shadow: 0 0 30px var(--shadow);
@@ -472,6 +493,12 @@
 .winners .winner {
   font-size: 2.4rem;
   color: var(--primary);
+}
+.winners--2024 .award {
+  color: var(--text);
+}
+.winners--2024 .winner {
+  color: var(--seconary);
 }
 
 .poster-box:hover + .text,
@@ -513,7 +540,7 @@
 }
 .cta {
   padding-inline: 10rem;
-  padding-bottom: 5rem;
+  padding-bottom: 20rem;
   background-color: var(--text);
   position: relative;
   display: flex;
