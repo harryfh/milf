@@ -114,17 +114,17 @@
 
   .winner {
     font-size: 3rem !important;
-    padding: 4em !important;
+    padding: 4rem !important;
   }
   .award {
-    font-size: 4em !important;
+    font-size: 4rem !important;
   }
   .carsouel-img-box,
   .poster-box {
     width: 75% !important;
   }
   .cta-card {
-    padding: 10em !important;
+    padding: 10rem !important;
   }
   .cta-grid {
     text-align: center !important;
@@ -137,11 +137,11 @@
     margin-left: 0rem !important;
   }
   .cta-text .subheading {
-    margin-top: 2em;
-    margin-bottom: 0em !important;
+    margin-top: 2rem;
+    margin-bottom: 0rem !important;
   }
   .cta-image {
-    padding: 10em !important;
+    padding: 10rem !important;
   }
 }
 @media (max-width: 40em) {
@@ -164,10 +164,10 @@
     font-size: 9%;
   }
   .body-text {
-    font-size: 3em !important;
+    font-size: 3rem !important;
   }
   .about-card {
-    gap: 2em;
+    gap: 2rem;
   }
 }
 @media (max-width: 10em) {
