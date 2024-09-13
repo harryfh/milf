@@ -36,11 +36,12 @@ function checkFlexGap() {
 
   flex.appendChild(document.createElement("div"))
   flex.appendChild(document.createElement("div"))
-
-  document.body.appendChild(flex)
-  var isSupported = flex.scrollHeight === 1
-  flex.parentNode.removeChild(flex)
-  console.log(isSupported)
+  if (document.body) {
+    document.body.appendChild(flex)
+    var isSupported = flex.scrollHeight === 1
+    flex.parentNode.removeChild(flex)
+    console.log(isSupported)
+  }
 
   if (!isSupported) document.body.classList.add("no-flexbox-gap")
 }
