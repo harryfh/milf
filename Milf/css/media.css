@@ -96,7 +96,7 @@
     opacity: 1 !important;
   }
   .poster-box {
-    width: 30rem;
+    width: 100%;
   }
 
   .winners .text {
@@ -182,6 +182,11 @@
   }
   .about-text:last-of-type() {
     margin-top: 20rem !important;
+  }
+}
+@media (max-width: 7em) {
+  html {
+    font-size: 5%;
   }
 }
 .no-flexbox-gap .img-box {
