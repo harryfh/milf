@@ -32,7 +32,9 @@
     margin: 0 auto;
     line-height: 1;
   }
-
+  .highlight-grid {
+    grid-template-columns: 1fr;
+  }
   .img-text {
     margin-bottom: 3rem;
   }

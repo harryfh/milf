@@ -766,3 +766,57 @@ input[type="submit"]:focus {
   border-radius: 20px;
   font-size: 2rem;
 }
+.highlight-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.highlights {
+  padding: 10rem 5rem;
+  margin: 0 auto;
+  justify-content: center;
+  position: relative;
+  background-color: var(--dark-background);
+  color: var(--background);
+}
+.highlight {
+  background: var(--background);
+  height: 100%;
+  border-radius: 2rem;
+  display: grid;
+  grid-template-columns: 1fr;
+
+  gap: 2rem;
+  padding: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+.highlight-img-box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 2rem;
+  overflow: hidden;
+}
+.highlight-img-box img {
+  object-fit: cover;
+  height: 100%;
+}
+.highlight p {
+  color: var(--text);
+  font-size: 1.6rem;
+  text-align: left;
+  height: 100%;
+}
+.highlight p span {
+  color: var(--dark-background);
+}
+.highlight-year {
+  color: var(--primary);
+  font-size: 1.6rem;
+  text-align: left;
+}
