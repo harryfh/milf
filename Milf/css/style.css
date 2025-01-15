@@ -128,9 +128,10 @@
 
 .socials {
   display: flex;
+
   align-items: center;
-  gap: 5rem;
-  justify-items: flex-end;
+  gap: 3rem;
+  justify-items: center;
 }
 .social {
   fill: var(--text);
@@ -302,7 +303,7 @@
   position: relative;
 
   background-color: var(--dark-background);
-  color: var(--text);
+  color: var(--background);
 }
 
 .about-card {
@@ -346,7 +347,7 @@
   font-size: 2rem;
 }
 .img-text span {
-  color: var(--text);
+  color: #111;
 }
 
 .float-left {
@@ -502,7 +503,9 @@
 .winners--2024 .winner {
   color: var(--texts);
 }
-
+.award {
+  color: var(--background);
+}
 .poster-box:hover + .text,
 .poster-box:focus + .text {
   opacity: 1;
@@ -542,14 +545,14 @@
 .brat-waves {
   width: 100%;
   transform: translateY(10%);
-  fill: #8ace00;
+  fill: var(--dark-background);
   background-color: #222;
 }
 .cta {
   padding-inline: 10rem;
   padding-block: 20rem;
 
-  background-color: #8ace00;
+  background-color: var(--dark-background);
   position: relative;
   display: flex;
   align-items: center;
@@ -684,4 +687,82 @@
   scale: 1.3;
   transition: all 300ms ease;
   background-color: #ff6cf8;
+}
+
+label {
+  display: block;
+  margin: 1em 0 0.2em;
+}
+/* single-line text, checkbox, and button */
+input,
+select,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 0.3em;
+  font-size: 2rem;
+  background-color: var(--background);
+  border: solid 1px #ccc;
+  resize: vertical;
+}
+textarea {
+  min-height: 180px;
+}
+select {
+  color: indigo;
+}
+option {
+  color: blue;
+  background: lavenderBlush;
+}
+input[type="checkbox"] {
+  display: inline;
+  width: auto;
+  color: red;
+}
+
+input[type="submit"] {
+  background: var(--dark-background);
+  margin: 1em 0 0;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  transition: all 0.3s ease-out;
+}
+
+input:focus,
+input:hover,
+select:focus,
+select:hover,
+textarea:focus,
+textarea:hover {
+  background: lavenderBlush;
+}
+
+/* hover and focus states */
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  background: lightgreen;
+  outline: none;
+}
+
+@media screen and (min-width: 600px) {
+  /*  make the form 2 columns */
+  form:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  .column {
+    width: 50%;
+    padding: 1em;
+    float: left;
+  }
+}
+.form-container {
+  background: var(--text);
+  padding: 3rem;
+  color: var(--text-shade);
+  border-radius: 20px;
+  font-size: 2rem;
 }

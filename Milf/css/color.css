@@ -13,11 +13,11 @@
 	--accent: #71539d;
 	--shadow: rgba(0, 0, 0, 0.05);
   */
-  --text: #94406e;
-  --background: #e4d2de;
-  --text-shade: #333;
-  --primary: #ff6cf8;
-  --dark-background: #eee2ff;
+  --text: #333;
+  --background: #eee;
+  --text-shade: #ddd;
+  --primary: #336c37;
+  --dark-background: #336c37;
   --secondary: #f29ad8;
   --accent: #00bbef;
   --primary2023: #b6a9ef;

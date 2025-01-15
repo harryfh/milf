@@ -43,10 +43,12 @@
   .cta {
     padding-top: 10rem;
   }
-  .top-box,
-  .links {
+
+  .links,
+  .top-box {
     flex-direction: column;
   }
+
   f .link,
   .next-text-box {
     text-align: center !important;
