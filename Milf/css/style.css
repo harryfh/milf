@@ -347,7 +347,8 @@
   font-size: 2rem;
 }
 .img-text span {
-  color: #111;
+  color: #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff;
 }
 
 .float-left {
@@ -379,9 +380,8 @@
   background: transparent;
 }
 .gallery--2024 {
-  background-color: #eee;
-  color: var(--text);
-  background-color: var(--background);
+  background-color: #fff4fe;
+  color: var(--secondary);
 }
 
 .gallery--2023 {
@@ -819,4 +819,7 @@ input[type="submit"]:focus {
   color: var(--primary);
   font-size: 1.6rem;
   text-align: left;
+}
+input {
+  font-family: inherit;
 }
